@@ -1,0 +1,17 @@
+.characterForm
+{
+    display: flex;
+    flex-flow: column;
+    max-width: 50%;
+    padding: 1em;
+}
+
+.characterForm > input {
+    margin-bottom: 1em;
+}
+.negativeFeedback {
+    color: #900;
+}
+.positiveFeedback {
+    color: #060;
+}
